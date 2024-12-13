@@ -1,0 +1,118 @@
+body{
+    background:black;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+/*for large screens*/
+@media only screen and (min-width:460px) {
+    nav{
+        align-content: center;
+        float: right;
+        margin-top: -7%;
+    }
+    #nav{
+        text-decoration: none;
+        color: beige;
+
+    }
+    #h1{
+        color:whitesmoke;
+        text-shadow: 2px 2px 6px rgb(60, 136, 60);
+        margin-left: 10%;
+        margin-top: 8%;
+        font-weight: lighter;
+        font-size: 300%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    h2{
+        color: white;
+        font-weight: bolder;
+        font-size: 100%;
+        margin-left: 10%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .footer{
+       bottom: 0%;
+       position: fixed;
+       margin-left: 10%;
+        
+        
+    }
+    .check{
+        color: white;
+        font-size: 200%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    img{
+        height: 4%;
+        width: 4%;
+        border-radius: 50px;
+        
+    }
+}
+/*small screens*/
+@media only screen and (max-width:460px) {
+    nav{
+        align-content: center;
+        float: right;
+        margin: 0%;
+        padding: 0%;
+        display: inline;
+        margin-top: -7%;
+    }
+    #nav{
+        text-decoration: none;
+        color: beige;
+        font-size: 70%;
+
+    }
+    #h1{
+        color:whitesmoke;
+        text-shadow: 2px 2px 6px rgb(60, 136, 60);
+        margin-left: 10%;
+        margin-top: 10%;
+        font-weight: lighter;
+        font-size: 150%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    h2{
+        color: white;
+        font-weight: bolder;
+        font-size: 100%;
+        margin-left: 10%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .check{
+        background-image: url('../img/c780afc196f85867fe309ad23cdab6ba.jpg');
+        color: white;
+        font-size: 200%;
+   
+        margin-top: 5%;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+    #contact{
+        font-size: 60%;
+    }
+   
+    img{
+        height: 9%;
+        width: 9%;
+        border-radius: 50px;
+        
+        
+    }
+    .footer{
+        bottom: 0%;
+        margin-top: 150%;
+        margin-left: 10%;
+    }
+}
