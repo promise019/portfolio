@@ -1,83 +1,269 @@
 body{
-    background:black;
-    background-repeat: no-repeat;
-    background-size: 100% 200%;
-    margin: 0px;
-    padding: 0px;
+    background-image: url('../img/bck.png');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
 }
 
 
 /*for large screens*/
 @media only screen and (min-width:460px) {
-    nav{
-        align-content: center;
-        float: right;
-        margin-top: -7%;
+    #log{
+        margin-top: 1.5%;
     }
-    #nav{
-        text-decoration: none;
-        color: beige;
-
+    #logo{
+        width: 5%;
+        height: auto;
     }
-    h1{
-        color:whitesmoke;
-        text-shadow: 2px 2px 6px rgb(60, 136, 60);
-        margin-left: 10%;
-        margin-top: 8%;
-        font-weight: lighter;
-        font-size: 300%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-    h2{
-        color: white;
-        font-weight: bolder;
-        margin-left: 10%;
-        
-    }
-    #email{
-        text-decoration: none;
-    }
-    div{
-        color: white;
-        margin-left: 10%;}
-    }
-
-/*small screens*/
-@media only screen and (max-width:460px) {
-   
-    nav{
-        align-content: center;
-        float: right;
-        margin-top: -7%;
-    }
-    #nav{
-        text-decoration: none;
-        color: beige;
-        font-size: 70%;
-
-    }
-    h1{
-        color:whitesmoke;
-        text-shadow: 2px 2px 6px rgb(60, 136, 60);
-        
-        margin-top: 8%;
-        font-weight: lighter;
-        font-size: 300%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-    h2{
-        color: white;
-        font-weight: bolder;
-        
-        
-    }
-    #email{
-        text-decoration: none;
-    }
-    div{
-        color: white;
+    #ideal{
+        font-style: italic;
         font-size: 100%;
-        padding: 5%;
-}}
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+        position: absolute;
+        margin-top: 1.5%;
+        margin-left: 1%;
+    }
+    nav{
+        margin-top: -5%;
+        float: right;
+    
+    }
+    #nav{
+        font-family: 'Segoe UI';
+        color: white;
+        text-decoration: none;
+        margin-right: 2%;
+        font-size: 100%;
+    }
+    h1{
+        color: white;
+        text-shadow: 2px 2px rgb(185, 209, 136);
+        font-size: 300%;
+        margin-top: 2%;
+        margin-left: 40%;
+
+    }
+    #img{
+        width: 20%;
+        height: auto;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    .about{
+        width: 70%;
+        color: white;
+        float: right;
+        padding: 2%;
+    }
+    #i{
+        font-size: 130%;
+    }
+    label{
+        font-size: 120%;
+        font-weight: bolder;
+    }
+    span, #span{
+        font-size: 120%;
+        font-weight: bolder;
+        font-style: italic;
+        text-decoration: none;
+        color: white;
+    }
+    #cv{
+        background: yellowgreen;
+        color: red;
+        border: none;
+        font-size: larger;
+        margin-right: 2%;
+    }
+    #cont{
+        background: inherit;
+        color: white;
+        border-color: yellowgreen;
+        font-size: larger;
+        margin-right: 2%;
+    }
+    .skills{
+        height: auto;
+        width:100%;
+        display: flexbox;
+    }
+    .skills1{
+        display: none;
+    }
+    #skill-box{
+        width: 31%;
+        height: 100%;
+        text-align: center;
+        background-color: rgb(90, 64, 64);
+        float: right;
+        margin-right: 2%;
+    }
+    .qual{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    h3{
+        font-size: 100%;
+    }
+    footer{
+        margin-left: 10%;
+        color: white;
+        margin-top: 40%;
+    }
+    h4{
+        margin-bottom: -0.3%;
+        font-size: large;
+    }
+    #tools{
+        font-size: 100%;
+    }
+    #co{
+        text-decoration: none;
+        color: white;
+    }
+    #link{
+        border-radius: 50px;
+        width: 6%;
+        height: auto;
+        margin-right: 4%;
+    }
+    }
+
+    /*for small screens*/
+@media only screen and (max-width:460px) {
+    #log{
+        margin-top: 1.5%;
+    }
+    #logo{
+        width: 5%;
+        height: auto;
+        margin-top: 0.3%;
+    }
+    #ideal{
+        font-style: italic;
+        font-size: 90%;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+        position: absolute;
+        margin-top: 1.5%;
+        margin-left: 1%;
+    }
+    nav{
+        margin-top: -5%;
+        float: right;
+    
+    }
+    #nav{
+        font-family: 'Segoe UI';
+        color: white;
+        text-decoration: none;
+        margin-right: 2%;
+        font-size: 50%;
+    }
+    h1{
+        color: white;
+        text-shadow: 1px 1px rgb(185, 209, 136);
+        font-size: 100%;
+        margin-top: 6%;
+        margin-left: 40%;
+
+    }
+    #img{
+        width: 30%;
+        height: auto;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    .about{
+        width: 60%;
+        color: white;
+        float: right;
+        padding: 2%;
+        margin-top: -2%;
+    }
+    h2{
+        font-size: 90%;
+        color: white;
+        margin-left: 4%;
+    }
+    #i{
+        font-size: 90%;
+    }
+    label{
+        font-size: 90%;
+        font-weight: bolder;
+    }
+    span, #span{
+        font-size: 90%;
+        font-weight: bolder;
+        font-style: italic;
+        text-decoration: none;
+        color: white;
+    }
+    #cv{
+        background: yellowgreen;
+        color: red;
+        border: none;
+        font-size: 53%;
+        margin-right: 2%;
+    }
+    #cont{
+        background: inherit;
+        color: white;
+        border-color: yellowgreen;
+        font-size: 52%;
+        margin-right: 2%;
+    }
+    .skills1{
+        margin-top: 55%;
+        height: auto;
+        width:100%;
+        margin-left: -0.5%;
+        display: flexbox;
+    }
+    .skills{
+        display: none;
+    }
+    #skill-box{
+        width: 30%;
+        height: auto;
+        text-align: center;
+        background-color: rgb(90, 64, 64);
+        float: right;
+        color: white;
+        margin-right: 2%;
+    }
+    #tools{
+        font-size: 60%;
+    }
+    .qual{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    h3{
+        font-size: 50%;
+    }
+    footer{
+        position: absolute;
+        margin-left: 10%;
+        bottom: 2%;
+        color: white;
+    }
+    h4{
+        margin-bottom: -1%;
+    }
+    #co{
+        text-decoration: none;
+        color: white;
+    }
+    #link{
+        border-radius: 50px;
+        width: 10%;
+        height: 10%;
+        margin-right: 4%;
+    }
+    }

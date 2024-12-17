@@ -1,117 +1,130 @@
-body{
-    background:black;
-    margin: 0px;
-    padding: 0px;
-    background-repeat: no-repeat;
-    background-size:cover;
-}
 
-
-/*for large screens*/
-@media only screen and (min-width:460px) {
-    nav{
-        align-content: center;
-        float: right;
-        margin-top: -7%;
-    }
-    #nave{
-        text-decoration: none;
-        color: beige;
-
-    }
-    #h1{
-        color:whitesmoke;
-        text-shadow: 2px 2px 6px rgb(60, 136, 60);
-        margin-left: 10%;
-        margin-top: 8%;
-        font-weight: lighter;
-        font-size: 300%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-    h2{
-        color: white;
-        font-weight: bolder;
-        font-size: 100%;
-        margin-left: 10%;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    .footer{
-       bottom: 0%;
-       position: fixed;
-       margin-left: 10%;
-        
-        
-    }
-    .check{
-        color: white;
-        font-size: 200%;
-        margin-left: 10%;
-        margin-top: 5%;
-    }
-    img{
-        height: 4%;
-        width: 4%;
-        border-radius: 50px;
-        
-    }
-}
-/*small screens*/
-@media only screen and (max-width:460px) {
-    nav{
-        margin-left: 15%;
+/*large screens*/
+@media only screen and (min-width:940px) {
+    body{
+        background-image: url('../img/bck.png');
+        background-size: cover;
+        background-attachment: fixed;
         text-align: center;
-        padding: 0%;
-        top: 0%;
-        position: absolute;
+        background-repeat: no-repeat;
+        padding: 1%;
     }
-    #nave{
-        text-decoration: none;
-        color: beige;
-        font-size: 90%;
-
+    #log{
+        margin-left: -87%;
+        margin-top: 1%;
     }
-    #h1{
-        color:whitesmoke;
-        text-shadow: 2px 2px 6px rgb(60, 136, 60);
-        margin-left: 10%;
-        margin-top: 25%;
-        font-weight: lighter;
-        font-size: 150%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    #logo{
+        width: 2%;
+        height: auto;
+    }
+    nav{
+        margin-left: 70%;
+        margin-top: -4%;
     
     }
+    #link, #link1, #link2, #link3 {
+        font-family: 'Segoe UI';
+        color: white;
+        text-decoration: none;
+        margin-right: 2%;
+    }
+    b{
+        font-style: italic;
+        font-size: 150%;
+        color: white;
+        text-indent: 1%;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+    #photo1{
+        width: 15%;
+        height: auto;
+        margin-top: 4%;
+    }
+    h1{
+        color: red;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bolder;
+    }
     h2{
         color: white;
-        font-weight: bolder;
-        font-size: 100%;
-        margin-left: 10%;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
-    .check{
-        background-image: url('../img/c780afc196f85867fe309ad23cdab6ba.jpg');
+    button{
         color: white;
-        font-size: 200%;
-   
-        margin-top: 5%;
+        font-weight: bolder;
+        border-width: 2%;
+        background-color: inherit;
+    }
+    p{
+        color: white;
+    }
+}
+
+/*small screens*/
+@media only screen and (max-width:940px) {
+    body{
+        background-image: url('../img/bck.png');
+        background-size: cover;
+        background-attachment: fixed;
         text-align: center;
-        height: 100%;
-        width: 100%;
+        background-repeat: no-repeat;
+        padding: 1%;
     }
-    #contact{
-        font-size: 60%;
+    #log{
+        margin-left: -87%;
+        margin-top: 1.5%;
     }
-   
-    img{
-        height: 5%;
-        width: 9%;
-        border-radius: 50px;
-        
-        
+    #logo{
+        width: 5%;
+        height: auto;
     }
-    .footer{
+    nav{
+        margin-left: 60%;
+        margin-top: -10%;
+    
+    }
+    #link, #link1, #link2, #link3 {
+        font-family: 'Segoe UI';
+        color: white;
+        text-decoration: none;
+        margin-right: 2%;
+        font-size: 42%;
+    }
+    b{
+        font-style: italic;
+        font-size: 100%;
+        color: white;
+        text-indent: 1%;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
         position: absolute;
-        top: 90%;
-        margin-left: 10%;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+    #photo1{
+        width: 25%;
+        height: auto;
+        margin-top: 4%;
+    }
+    h1{
+        color: red;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bolder;
+        font-size: 150%;
+    }
+    h2{
+        color: white;
+        font-size: 100%;
+    }
+    button{
+        color: white;
+        font-weight: bolder;
+        border-width: 2%;
+        background-color: inherit;
+    }
+    p{
+        color: white;
+        font-size: 90%;
     }
 }
